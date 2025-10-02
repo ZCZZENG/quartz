@@ -3,7 +3,7 @@ name: Deploy Quartz site to GitHub Pages
 on:
   push:
     branches:
-      - v4   # 这里保持和你内容所在分支一致
+      - v4   # 你的内容所在分支
   workflow_dispatch:
 
 jobs:
